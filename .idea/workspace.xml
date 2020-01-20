@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1579507768706" duration="154000" />
       <workItem from="1579507942101" duration="1592000" />
       <workItem from="1579509749213" duration="17243000" />
-      <workItem from="1579536738483" duration="3259000" />
+      <workItem from="1579536738483" duration="4649000" />
     </task>
     <servers />
   </component>
@@ -179,6 +178,10 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="395" y="126" width="802" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1600.875@0.25.1600.875" timestamp="1579519509567" />
+    <state x="549" y="303" width="494" height="324" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579540241043">
+      <screen x="0" y="25" width="1600" height="875" />
+    </state>
+    <state x="549" y="303" width="494" height="324" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.25.1600.875@0.25.1600.875" timestamp="1579540241043" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1579518566815">
       <screen x="0" y="25" width="1600" height="875" />
     </state>

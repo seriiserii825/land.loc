@@ -9,6 +9,7 @@ use App\Page;
 use App\Service;
 use App\Portfolio;
 use App\People;
+use DB;
 
 class IndexController extends Controller
 {
@@ -17,6 +18,8 @@ class IndexController extends Controller
 		$portoflios = Portfolio::get(['name', 'image', 'filter']);
 		$services = Service::all();
 		$peoples = People::take(3)->get();
+
+		$tags = DB::table('portfolios')->distinct()->lists('filter');
 
 		$menu = [];
 
@@ -46,6 +49,7 @@ class IndexController extends Controller
 			'services' => $services,
 			'portfolios' => $portoflios,
 			'$peoples' => $peoples,
+			'tags' => $tags,
 		]);
 	}
 }
