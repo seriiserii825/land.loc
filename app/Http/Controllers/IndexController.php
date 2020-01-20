@@ -9,6 +9,6 @@ use App\Http\Requests;
 class IndexController extends Controller
 {
 	public function execute(Request $request){
-		return view('layouts/site');
+		return view('layouts.site');
 	}
 }

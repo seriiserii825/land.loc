@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1">
     <title>Unique</title>
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="{{ asset('assets/favicon.png') }}" type="image/png">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/font-awesome.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
+    <script src="{{ asset('assets/js/respond-1.1.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/html5shiv.js') }}"></script>
+    <script src="{{ asset('assets/js/html5element.js') }}"></script>
     <![endif]-->
 
 </head>
@@ -23,7 +23,7 @@
 <header id="header_wrapper">
     <div class="container">
         <div class="header_box">
-            <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+            <div class="logo"><a href="#"><img src="{{ asset('assets/img/logo.png') }}" alt="logo"></a></div>
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
                     <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -58,7 +58,7 @@
                             <a href="#service" class="read_more2">Read more</a> </div>
                     </div>
                     <div class="col-lg-7 col-sm-5">
-                        <img src="img/main_device_image.png" class="zoomIn wow animated" alt="" />
+                        <img src="{{ asset('assets/img/main_device_image.png') }}" class="zoomIn wow animated" alt="" />
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
             <h2>About Us</h2>
             <div class="inner_section">
                 <div class="row">
-                    <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/about-img.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+                    <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="{{ asset('assets/img/about-img.jpg') }}" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
                     <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
                         <div class=" delay-01s animated fadeInDown wow animated">
                             <h3>Lorem Ipsum has been the industry's standard dummy text ever..</h3><br/>
@@ -201,7 +201,7 @@
 
             <!-- Portfolio Item -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic1.jpg') }}"  alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">SMS Mobile App</h4>
@@ -212,7 +212,7 @@
 
             <!-- Portfolio Item-->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic2.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">Finance App</h4>
@@ -223,7 +223,7 @@
 
             <!-- Portfolio Item -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic3.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">GPS Concept</h4>
@@ -234,7 +234,7 @@
 
             <!-- Portfolio Item-->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic4.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">Shopping</h4>
@@ -245,7 +245,7 @@
 
             <!-- Portfolio Item -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic5.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">Managment</h4>
@@ -256,7 +256,7 @@
 
             <!-- Portfolio Item -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic6.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">iPhone</h4>
@@ -267,7 +267,7 @@
 
             <!-- Portfolio Item  -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic7.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">Nexus Phone</h4>
@@ -278,7 +278,7 @@
 
             <!-- Portfolio Item -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
-                <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
+                <div class="portfolio_img"> <img src="{{ asset('assets/img/portfolio_pic8.jpg') }}" alt="Portfolio 1"> </div>
                 <div class="item_overlay">
                     <div class="item_info">
                         <h4 class="project_name">Android</h4>
@@ -311,10 +311,10 @@
     <div class="client_logos"><!--client_logos-->
         <div class="container">
             <ul class="fadeInRight animated wow">
-                <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="{{ asset('assets/img/client_logo1.png') }}" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="{{ asset('assets/img/client_logo2.png') }}" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="{{ asset('assets/img/client_logo3.png') }}" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="{{ asset('assets/img/client_logo4.png') }}" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -329,7 +329,7 @@
             <div class="team_area">
                 <div class="team_box wow fadeInDown delay-03s">
                     <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team_pic1.jpg" alt="">
+                    <img src="{{ asset('assets/img/team_pic1.jpg') }}" alt="">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -344,7 +344,7 @@
             <div class="team_area">
                 <div class="team_box  wow fadeInDown delay-06s">
                     <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team_pic2.jpg" alt="">
+                    <img src="{{ asset('assets/img/team_pic2.jpg') }}" alt="">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -359,7 +359,7 @@
             <div class="team_area">
                 <div class="team_box wow fadeInDown delay-09s">
                     <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team_pic3.jpg" alt="">
+                    <img src="{{ asset('assets/img/team_pic3.jpg') }}" alt="">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -435,14 +435,14 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/wow.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="{{ asset('assets/js/jquery-1.11.0.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/jquery-scrolltofixed.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/jquery.nav.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/jquery.isotope.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/wow.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/custom.js') }}"></script>
 
 </body>
 </html>
